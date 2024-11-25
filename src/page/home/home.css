@@ -87,3 +87,16 @@ body {
     margin: 0; /* Eliminar márgenes del body */
     padding: 0; /* Eliminar paddings del body */
 }
+
+/* Estilo del carrusel */
+.carrusel {
+    width: 100%; /* Ancho completo */
+    max-height: 224px; /* Altura máxima del carrusel */
+    overflow: hidden; /* Ocultar desbordamiento */
+}
+
+.carrusel img {
+    width: 680px; /* Ancho específico */
+    height: 224px; /* Altura específica */
+    object-fit: cover; /* Asegura que la imagen cubra el área del carrusel */
+}
